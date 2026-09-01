@@ -170,9 +170,8 @@ CREATE TABLE IF NOT EXISTS NOME_DO_SCHEMA.NOME_DA_TABELA
 ## 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/rvidals/incra-wfs-sync
-.git
-cd AtualizadorWFS
+git clone https://github.com/rvidals/incra-wfs-sync.git
+cd incra-wfs-sync
 ```
 
 ## 2. Criar um ambiente virtual
@@ -423,13 +422,13 @@ python.exe
 **Argumentos:**
 
 ```text
-C:\Scripts\AtualizadorWFS\atualizador_wfs.py
+C:\Scripts\incra-wfs-sync\atualizador_wfs.py
 ```
 
 **Iniciar em:**
 
 ```text
-C:\Scripts\AtualizadorWFS\
+C:\Scripts\incra-wfs-sync\
 ```
 
 > Os caminhos devem ser ajustados de acordo com a instalação do Python/Conda e a localização do projeto.
