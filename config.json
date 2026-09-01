@@ -1,0 +1,30 @@
+{
+  "database": {
+    "host": "HOST_DO_BANCO",
+    "port": "PORTA",
+    "database": "NOME_DO_BANCO",
+    "user": "USUARIO",
+    "password": "SENHA"
+  },
+  "wfs": {
+    "url": "http://acervofundiario.incra.gov.br/i3geo/ogc.php?tema=gf_cert_regist_reman",
+    "type_name": "ms:gf_cert_regist_reman",
+    "srsname": "EPSG:4326",
+    "max_features": 50000
+  },
+  "table": {
+    "name": "NOME_DA_TABELA",
+    "schema": "NOME_DO_SCHEMA",
+    "primary_key": [
+      "gid"
+    ]
+  },
+  "update": {
+    "delete_orphans": false,
+    "batch_size": 1000
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/atualizacao.log"
+  }
+}

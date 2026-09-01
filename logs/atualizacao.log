@@ -1,0 +1,49 @@
+2026-08-31 18:40:08 - INFO - ============================================================
+2026-08-31 18:40:08 - INFO - INICIANDO ATUALIZAÇÃO AUTOMÁTICA
+2026-08-31 18:40:08 - INFO - Data/Hora: 2026-08-31 18:40:08
+2026-08-31 18:40:08 - INFO - ============================================================
+2026-08-31 18:40:08 - INFO - Configuração carregada com sucesso
+2026-08-31 18:40:08 - INFO - Tabela destino: bases_gerais.incra_remanescentes_de_glebas_ago_26
+2026-08-31 18:40:08 - INFO - Buscando dados do WFS: ms:gf_cert_regist_reman
+2026-08-31 18:40:08 - INFO - Obtendo dados em formato XML...
+2026-08-31 18:40:17 - INFO - Requisição concluída em 8.96 segundos
+2026-08-31 18:40:17 - INFO - Tamanho da resposta: 57,303,172 bytes
+2026-08-31 18:40:18 - INFO - Encontradas 1186 features no XML
+2026-08-31 18:40:18 - INFO - Processados 1000 registros...
+2026-08-31 18:40:18 - INFO - DataFrame criado com 1186 linhas e 19 colunas
+2026-08-31 18:40:18 - INFO - gid convertido para string: 7445...
+2026-08-31 18:40:19 - INFO - Carregados 1,186 registros do WFS
+2026-08-31 18:40:19 - INFO - Colunas encontradas: ['geom', 'gid', 'cod_imovel', 'matricula', 'nome_gleba', 'sr', 'uf', 'situacao', 'area_ha', 'data_certi', 'num_certif', 'assent_pre', 'ano_assent', 'id_gid', 'gl_fora_am', 'codigo_gle', 'Destinada', 'area_re_ha', 'mat_recons']
+2026-08-31 18:40:19 - INFO - Amostra dos dados (primeiro registro):
+2026-08-31 18:40:19 - INFO -   geom: POLYGON ((-57.727739 -3.133634, -57.727797 -3.135602, -57.730078 -3.138590, -57.731820 -3.139802, -5
+2026-08-31 18:40:19 - INFO -   gid: 7445
+2026-08-31 18:40:19 - INFO -   cod_imovel: 0000000000000
+2026-08-31 18:40:19 - INFO -   matricula: 891 cns:00.443-2
+2026-08-31 18:40:19 - INFO -   nome_gleba: GLEBA GUARANÓPOLIS
+2026-08-31 18:40:19 - INFO -   sr: 15
+2026-08-31 18:40:19 - INFO -   uf: AM
+2026-08-31 18:40:19 - INFO -   situacao: CERTIFICADA
+2026-08-31 18:40:19 - INFO -   area_ha: 69160015
+2026-08-31 18:40:19 - INFO -   data_certi: 2014-07-09 00:00:00
+2026-08-31 18:40:19 - INFO -   num_certif: 55276ccf-b724-45d8-908f-f4f4cd26837c
+2026-08-31 18:40:19 - INFO -   assent_pre: 0
+2026-08-31 18:40:19 - INFO -   ano_assent: 0
+2026-08-31 18:40:19 - INFO -   id_gid: 0
+2026-08-31 18:40:19 - INFO -   gl_fora_am: não
+2026-08-31 18:40:19 - INFO - Conectando ao PostgreSQL em 192.168.100.88:5433
+2026-08-31 18:40:19 - INFO - PostgreSQL versão: PostgreSQL 16.4 (Debian 16.4-1.pgdg110+2) on x86_6...
+2026-08-31 18:40:19 - INFO - Tabela já possui PRIMARY KEY
+2026-08-31 18:40:19 - INFO - Carregando dados atuais da tabela...
+2026-08-31 18:40:41 - INFO - gid convertido para string para comparação
+2026-08-31 18:40:41 - INFO - Carregados 1,186 registros da tabela
+2026-08-31 18:40:41 - INFO - GIDs únicos no WFS: 1099 (de 1186 total)
+2026-08-31 18:40:41 - INFO - GIDs únicos na tabela: 1099 (de 1186 total)
+2026-08-31 18:40:41 - INFO - GIDs na tabela: 1099
+2026-08-31 18:40:41 - INFO - GIDs no WFS: 1099
+2026-08-31 18:40:41 - INFO - 🔵 GIDs NOVOS (INSERT): 0
+2026-08-31 18:40:41 - INFO -    GIDs: []
+2026-08-31 18:40:41 - INFO - 🟡 GIDs EXISTENTES (UPDATE potencial): 1099
+2026-08-31 18:40:41 - INFO - Verificando quais registros realmente mudaram...
+2026-08-31 18:40:41 - INFO - 🟢 REGISTROS PARA UPDATE (efetivos): 0
+2026-08-31 18:40:41 - INFO - ✅ Nenhuma alteração detectada. Tabela já está atualizada!
+2026-08-31 18:40:41 - INFO - Conexão com PostgreSQL fechada
