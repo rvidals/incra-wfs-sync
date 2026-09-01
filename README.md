@@ -524,9 +524,9 @@ Consulte o arquivo [`LICENSE`](LICENSE) para mais informações.
 
 # 👤 Autor
 
-**Rogerio Siqueira**
-
-Desenvolvedor de soluções geoespaciais.
+**Rogerio Vidal de Siqueira**
+📧 rogeriovidalsiqueira@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/rogerio-vidal-de-siqueira-9478aa136/) | [GitHub](https://github.com/rvidals)
 
 ---
 
