@@ -170,7 +170,8 @@ CREATE TABLE IF NOT EXISTS NOME_DO_SCHEMA.NOME_DA_TABELA
 ## 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/AtualizadorWFS.git
+git clone https://github.com/rvidals/incra-wfs-sync
+.git
 cd AtualizadorWFS
 ```
 
