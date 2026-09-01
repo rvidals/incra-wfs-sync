@@ -132,7 +132,7 @@ O script foi desenvolvido para trabalhar com uma tabela espacial contendo, entre
 Exemplo da estrutura utilizada:
 
 ```sql
-CREATE TABLE IF NOT EXISTS bases_gerais.incra_remanescentes_de_glebas_ago_26
+CREATE TABLE IF NOT EXISTS NOME_DO_SCHEMA.NOME_DA_TABELA
 (
     fid bigint NOT NULL,
     geom geometry(MultiPolygon, 4326),
@@ -156,7 +156,7 @@ CREATE TABLE IF NOT EXISTS bases_gerais.incra_remanescentes_de_glebas_ago_26
     "OBS_1" character varying,
     area_re_ha character varying,
 
-    CONSTRAINT incra_remanescentes_de_glebas_ago_26_pkey
+    CONSTRAINT NOME_DA_TABELA
         PRIMARY KEY (fid)
 );
 ```
